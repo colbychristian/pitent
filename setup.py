@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="DHT20",
+    name="dht20",
     version="0.0.1",
     author="Colby Jamieson",
     author_email="colbyjamieson@outlook.com",
@@ -20,7 +20,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    package_dir={"DHT20": "DHT20"},
+    package_dir={"dht20": "dht20"},
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.6",
 )
