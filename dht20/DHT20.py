@@ -1,3 +1,5 @@
+import LBank
+
 def DHT20(bus, location):
 
     import time
